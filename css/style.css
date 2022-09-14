@@ -30,3 +30,6 @@
     display: none;
 }
 
+header{
+    z-index: 2;
+}
