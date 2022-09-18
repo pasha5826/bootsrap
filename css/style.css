@@ -31,5 +31,47 @@
 }
 
 header{
-    z-index: 2;
+    z-index: 3;
 }
+
+
+.description{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.black{
+    background-image: url("../img/black.jpg");
+    height: 100vh;
+    background-size: cover;}
+  .black  h3{
+        font-family: '20 Kopeek Book';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 100%;
+        color: #FFFFFF;
+        padding-top: 282px;
+    }
+
+.black  p{
+
+
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+
+    color: #FFFFFF;
+}
+
+
+
+
