@@ -35,15 +35,7 @@ header{
 }
 
 
-.description{
-    width: 100%;
-    position: absolute;
-    height: 100vh;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
+
 
 .black{
     background-image: url("../img/black.jpg");
@@ -72,6 +64,9 @@ header{
     color: #FFFFFF;
 }
 
+.frelans{
+
+}
 
 
 
