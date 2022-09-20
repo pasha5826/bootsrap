@@ -1,38 +1,6 @@
-*{
-    margin: 0;
-    padding:0 ;
-}
-.banner1{
-    height: 100vh;
-    background-size: cover;
-    background-image: url("../img/banner1.jpg");
-}
-.banner2{
-    height: 100vh;
-    background-size: cover;
-    background-image: url("../img/banner2.jpg");
-}
-.banner3{
-    height: 100vh;
-    background-size: cover;
-    background-image: url("../img/banner3.jpg");
-}
-.banner4{
-    height: 100vh;
-    background-size: cover;
-    background-image: url("../img/banner4.jpg");
-}
 
-.owl-nav{
-    display: none;
-}
-.owl-dots{
-    display: none;
-}
 
-header{
-    z-index: 3;
-}
+
 
 
 
@@ -64,9 +32,7 @@ header{
     color: #FFFFFF;
 }
 
-.frelans{
 
-}
 
 
 
