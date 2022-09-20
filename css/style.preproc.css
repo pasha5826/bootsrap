@@ -162,8 +162,7 @@ header li {
   background: #2B59C3;
   border-radius: 5px;
   color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 .box2 h3 {
   font-family: "20 Kopeek Book";
@@ -238,6 +237,160 @@ header li {
   border-radius: 40px;
   padding: 10px 57px;
   border: 2px solid silver;
+}
+
+.Vilata {
+  padding-bottom: 50px;
+}
+.Vilata h4 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+  margin-top: 41px;
+}
+.Vilata p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.Vilata a {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  padding: 10px 57px;
+  border: 2px solid silver;
+  border-radius: 40px;
+  margin-top: 41px;
+}
+
+.coral {
+  padding-bottom: 120px;
+}
+.coral h4 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+  margin-top: 41px;
+}
+.coral p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.coral a {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  padding: 10px 57px;
+  border: 2px solid silver;
+  border-radius: 40px;
+  margin-top: 41px;
+}
+
+.row .linka {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 110%;
+  color: #FFFFFF;
+  padding: 23px 47px;
+  background: #2B59C3;
+  border-radius: 40px;
+}
+
+.dislife {
+  padding-bottom: 77px;
+}
+.dislife .row .col-lg-5 {
+  background-color: #005cbf;
+  border-radius: 5px;
+}
+.dislife h4 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
+.dislife h5 {
+  margin-top: 40px;
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #FFFFFF;
+}
+.dislife p:first-of-type {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.dislife p:last-of-type {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+
+.input h4 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
+.input h5 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #181818;
+}
+
+.input {
+  padding-bottom: 150px;
+}
+.input input {
+  border: 1px solid #181818;
+  border-radius: 30px;
+  padding: 35px;
+}
+.input button {
+  background: #2B59C3;
+  border-radius: 40px;
+  padding: 23px 47px;
+}
+
+.form-check {
+  padding: 35px;
 }
 
 .frelans {
