@@ -60,6 +60,8 @@ header li {
 
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .description {
@@ -204,6 +206,9 @@ header li {
   padding: 10px 57px;
   border: 2px solid silver;
 }
+.anchor .col-lg-3 {
+  max-width: 100%;
+}
 
 .lifecare {
   padding-bottom: 50px;
@@ -237,6 +242,9 @@ header li {
   border-radius: 40px;
   padding: 10px 57px;
   border: 2px solid silver;
+}
+.lifecare .col-lg-4 {
+  max-width: 100%;
 }
 
 .Vilata {
@@ -393,6 +401,63 @@ header li {
   padding: 35px;
 }
 
+.stages .row {
+  margin-bottom: 65px;
+}
+.stages h4 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+}
+.stages .img1 {
+  margin-bottom: 24px;
+  height: 87px;
+  position: relative;
+  right: 130px;
+}
+.stages .img2 {
+  height: 70px;
+  margin-bottom: 24px;
+  position: relative;
+  right: 135px;
+}
+.stages .img3 {
+  height: 83px;
+  margin-bottom: 24px;
+  position: relative;
+  right: 140px;
+}
+.stages h5 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  display: flex;
+  align-items: flex-end;
+  color: #181818;
+}
+.stages h6 {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  margin-bottom: 15px;
+}
+.stages p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #181818;
+}
+
 .frelans {
   padding: 150px 0;
 }
@@ -464,9 +529,11 @@ header li {
 }
 
 .black {
-  background-image: url("../img/black.jpg");
+  background-image: url("../img/img-black.jpg");
   height: 100vh;
   background-size: cover;
+  padding-top: 282px;
+  padding-bottom: 80px;
 }
 .black h3 {
   font-family: "20 Kopeek Book";
@@ -475,9 +542,104 @@ header li {
   font-size: 55px;
   line-height: 100%;
   color: #FFFFFF;
-  padding-top: 282px;
+  padding-bottom: 70px;
 }
 .black p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.black span {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #FFFFFF;
+  padding-right: 9px;
+  position: relative;
+  top: -20px;
+}
+.black p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+  display: flex;
+}
+
+.contacts {
+  padding-top: 150px;
+}
+.contacts h4 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 110%;
+  color: #181818;
+  padding-bottom: 20px;
+}
+.contacts input {
+  border: 1px solid #181818;
+  border-radius: 10px;
+  padding: 23px;
+}
+.contacts h5 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #181818;
+}
+.contacts .form-group {
+  margin-right: 120px;
+}
+
+.col-lg-6 button {
+  background: #2B59C3;
+  border-radius: 40px;
+  padding: 23px 47px;
+}
+
+footer {
+  padding-top: 100px;
+}
+footer .col-lg-3 {
+  background: #2B59C3;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 230px;
+  margin-right: 38px;
+}
+footer .col-lg-12 p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #181818;
+  padding-top: 30px;
+}
+footer .col-lg-3 p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding-bottom: 28px;
+}
+footer h4 {
+  margin-bottom: 35px;
+}
+footer a {
   font-family: "20 Kopeek";
   font-style: normal;
   font-weight: 400;
