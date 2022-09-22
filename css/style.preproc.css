@@ -35,6 +35,12 @@
   background-image: url("../img/banner4.jpg");
 }
 
+.banner5 {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../img/section1.jpg");
+}
+
 header {
   z-index: 3;
 }
@@ -68,10 +74,27 @@ header li {
   width: 100%;
   position: absolute;
   height: 100vh;
-  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+.description .container {
+  z-index: 2;
+}
+
+.description .col-md-12 h1 {
+  font-family: "20 Kopeek Book";
+  font-size: 45px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.description .col-md-12 h3 {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #FFFFFF;
 }
 .description h1 {
   font-family: "20 Kopeek Book";
@@ -164,7 +187,7 @@ header li {
   background: #2B59C3;
   border-radius: 5px;
   color: white;
-  padding: 15px;
+  padding: 10px;
 }
 .box2 h3 {
   font-family: "20 Kopeek Book";
@@ -328,10 +351,6 @@ header li {
 .dislife {
   padding-bottom: 77px;
 }
-.dislife .row .col-lg-5 {
-  background-color: #005cbf;
-  border-radius: 5px;
-}
 .dislife h4 {
   font-family: "20 Kopeek Book";
   font-style: normal;
@@ -340,30 +359,29 @@ header li {
   line-height: 110%;
   color: #181818;
 }
-.dislife h5 {
-  margin-top: 40px;
-  font-family: "20 Kopeek Book";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 110%;
-  color: #FFFFFF;
-}
-.dislife p:first-of-type {
-  font-family: "20 Kopeek";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 140%;
-  color: #FFFFFF;
-}
-.dislife p:last-of-type {
+.dislife h6 {
   font-family: "20 Kopeek";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   color: #181818;
+}
+.dislife p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  background-color: #005cbf;
+  border-radius: 5px;
+  margin-top: 60px;
+  padding: 5px;
+}
+.dislife p span {
+  font-size: 25px;
+  padding-bottom: 5px;
 }
 
 .input h4 {
@@ -399,6 +417,10 @@ header li {
 
 .form-check {
   padding: 35px;
+}
+
+.form-check-label span {
+  color: blue;
 }
 
 .stages .row {
@@ -606,6 +628,9 @@ header li {
   background: #2B59C3;
   border-radius: 40px;
   padding: 23px 47px;
+}
+.col-lg-6 span {
+  color: blue;
 }
 
 footer {
