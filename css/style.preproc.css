@@ -41,6 +41,12 @@
   background-image: url("../img/section1.jpg");
 }
 
+.btn-link:hover {
+  background: silver;
+  color: black;
+  text-decoration: none;
+}
+
 header {
   z-index: 3;
 }
@@ -60,14 +66,23 @@ header li {
   line-height: 140%;
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
-  border-radius: 20px;
+  border-radius: 30px;
   margin-right: 28px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.icon {
+  width: 43px;
+  text-align: center;
+}
+
+.nav-link:hover, .navbar-light .navbar-nav {
   color: #FFFFFF;
   padding-right: 1rem;
   padding-left: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
 }
 
 .description {
@@ -406,7 +421,7 @@ header li {
 }
 .input input {
   border: 1px solid #181818;
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 35px;
 }
 .input button {
@@ -552,7 +567,6 @@ header li {
 
 .black {
   background-image: url("../img/img-black.jpg");
-  height: 100vh;
   background-size: cover;
   padding-top: 282px;
   padding-bottom: 80px;
@@ -610,7 +624,7 @@ header li {
 .contacts input {
   border: 1px solid #181818;
   border-radius: 10px;
-  padding: 23px;
+  padding: 30px;
 }
 .contacts h5 {
   font-family: "20 Kopeek Book";
@@ -636,13 +650,6 @@ header li {
 footer {
   padding-top: 100px;
 }
-footer .col-lg-3 {
-  background: #2B59C3;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 230px;
-  margin-right: 38px;
-}
 footer .col-lg-12 p {
   font-family: "20 Kopeek";
   font-style: normal;
@@ -659,7 +666,6 @@ footer .col-lg-3 p {
   font-size: 16px;
   line-height: 140%;
   color: #FFFFFF;
-  padding-bottom: 28px;
 }
 footer h4 {
   margin-bottom: 35px;
@@ -671,6 +677,11 @@ footer a {
   font-size: 15px;
   line-height: 19px;
   color: #FFFFFF;
+}
+footer .p1 {
+  background: #2B59C3;
+  border-radius: 10px;
+  padding: 6px 10px 15px 13px;
 }
 
 /*# sourceMappingURL=style.preproc.css.map */
